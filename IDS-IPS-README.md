@@ -29,3 +29,18 @@ Monitors network segments.
 2️⃣ **HIDS – Host IDS**
 
 Runs on individual machines (Servers, End-points)
+
+### IDS Tools
+
+- Snort
+- Suricata
+- OSSEC
+
+## IPS (Intrusion Prevention System)
+
+- **IPS** is an advanced security system that not only detects malicious activities buto also prevents them from happening in real time.
+- It interprets network traffic, compares it to known threat signatures, and immediatly blocks and neutralizes suspicious activities before they can cause damage.
+- **IPS** is proactive while **IDS** is primarily reactive.
+
+**Example**:
+IPS detects a malicious payload based on its signature and immediatly blocks the traffic, preventing the malware to enter the network.
