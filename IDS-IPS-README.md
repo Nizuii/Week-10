@@ -8,3 +8,24 @@
 - **IDS** is a hardware or software tool that monitors and analyzes network or system activities for sign of unauthorized access or policy violations.
 - It passively scans incomming traffic and compares it to pre-configured  or behavioral patterns.
 - **IDS** alerts the system admin when potential threaths are detected but does not take any active action to block or mitigate them. 
+
+**Example**:  
+IDS detects an unusual spike in network traffic during off-peak hours and sends an alert to the administrator, notifying them of a possible security breach.
+
+### IDS Rules
+
+IDS Rules are a set of instructions that tells the IDS:
+
+- **What to look for** (Patterns, Strings, Behaviour, Protocol Anomalies)
+- **Where to look** (IP, Port, Protocol)
+- **What to do** if it finds a match (alert, log, block ➡️ IPS)
+
+### Deployment Types
+
+1️⃣ **NIDS - Network IDS**
+
+Monitors network segments.
+
+2️⃣ **HIDS – Host IDS**
+
+Runs on individual machines (Servers, End-points)
