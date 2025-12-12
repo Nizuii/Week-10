@@ -44,3 +44,32 @@ Runs on individual machines (Servers, End-points)
 
 **Example**:
 IPS detects a malicious payload based on its signature and immediatly blocks the traffic, preventing the malware to enter the network.
+
+### How IPS actually blocks attacks.
+
+**1️⃣ Packet Arrives → IPS Intercepts It**
+
+- IPS recieves the traffic first before it reaches to the server inorder to check the packet.
+
+**2️⃣ IPS Checks the Packet Against Detection Engines**
+
+- It uses:
+
+  - Signature based detection.
+
+    - Matches known malicious patterns
+    - Example: SQL injection like ' OR 1=1
+   
+- Anomaly-based detection
+
+  - If traffic deviates from normal behavior (weird payload sizes, strange commands).
+ 
+- Reputation-based detection
+
+  - Blocks malicious IPs/domains from threat feeds.
+ 
+- Protocol analysis
+
+  - If HTTP packets break RFC rules, look abnormal → possible exploit.
+
+ 
