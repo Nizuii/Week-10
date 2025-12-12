@@ -19,11 +19,6 @@
 
 in SSL:
 
-> **Terminal Preview**
->
 > ```bash
-> $ pettranslator --run
-> Listening...
-> Translation: "Bro stop talking to me, I'm sleeping."
+> master_secret = MD5(...) + SHA1(...)
 > ```
-
