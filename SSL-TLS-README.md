@@ -22,3 +22,18 @@ in SSL:
 ```bash
 master_secret = MD5(...) + SHA1(...)
 ```
+
+Message Digest algorithms = simple hashing methods.
+
+### TLS (Latest)
+
+- Uses a **Pseudo Random Function** (PRF) to generate the master secret.
+- **PRF** = **MD5 + SHA1** Combined in a stronger way, and in later versions TLS uses only SHA-256 or better.
+- Much stronger and more resistant to attacks.
+
+in TLS:
+```bash
+master_secret = PRF(client_random, server_random, pre_master_secret)
+```
+
+PRF = more secure, more modern, more unpredictable.
