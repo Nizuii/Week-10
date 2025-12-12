@@ -19,6 +19,6 @@
 
 in SSL:
 
-> ```bash
-> master_secret = MD5(...) + SHA1(...)
-> ```
+```bash
+master_secret = MD5(...) + SHA1(...)
+```
