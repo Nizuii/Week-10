@@ -72,4 +72,18 @@ IPS detects a malicious payload based on its signature and immediatly blocks the
 
   - If HTTP packets break RFC rules, look abnormal → possible exploit.
 
- 
+ ### Deployment Types
+
+ 1️⃣ NIPS – Network IPS
+
+ Placed inline to block malicious traffic on the network.
+
+ 2️⃣ HIPS – Host IPS
+
+ Blocks malicious activity directly on a host.
+
+### IDS Tools
+
+- Snort
+- Fail2Ban
+- Zeek
