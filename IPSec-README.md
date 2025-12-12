@@ -39,4 +39,4 @@ IPSec isn't one protocol. Its a collection of protocols working together.
 
 - IPSec can work in 2 modes.
 
-- 
+  **1. Transport Mode**
