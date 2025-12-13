@@ -48,3 +48,11 @@ User's PC ➡️ VPN Tunnel ➡️ VPN Server ➡️ Website
 ```
 
 Return traffic comes back the same encrypted way.
+
+## Types of VPN'S
+
+### 1. Remote Access VPN's
+
+- A Remote Access VPN permits a user to connect to a private network and aceess all its services and resources remotely.
+- The connection between the user and the private occurs through the internet and the connection is secure and private.
+- Remote Access VPN;s are useful for both home users and business users. A remotely working employee of a company uses this VPN to connect to his/her companies private network and remotely access the files and resources on the private network. 
