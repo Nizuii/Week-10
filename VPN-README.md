@@ -1,5 +1,7 @@
 # What is a VPN
 
+<img src="images/vpn1.jpg">
+
 - **VPN** stands for virtual private network.
 - It establishes a secure and reliable network connection over an unsecure network such as internet.
 - It protects the internet activity and disguises the identity of the user on internet.
