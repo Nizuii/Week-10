@@ -36,3 +36,15 @@ VPN solves 3 major problems:
 1. They agree on encryption keys.
 1. A secure tunnel is created.
 1. All traffic of the user goes through that tunnel.
+
+So instead of:
+```bash
+User's PC ➡️ ISP ➡️ Website
+```
+
+It becomes:
+```bash
+User's PC ➡️ VPN Tunnel ➡️ VPN Server ➡️ Website
+```
+
+Return traffic comes back the same encrypted way.
